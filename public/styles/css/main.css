@@ -1,0 +1,59 @@
+.gradient {
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(149deg, rgba(255, 192, 203, 1) 0%, rgba(255, 182, 193, 1) 42%, rgba(255, 105, 180, 1) 72%, rgba(255, 20, 147, 1) 100%);
+    animation: gradient 6s infinite linear;
+    background-size: 400%;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 80% 0%;
+    }
+    50% {
+        background-position: 20% 100%;
+    }
+    100% {
+        background-position: 80% 0%;
+    }
+}
+.btn-group{
+    position: fixed;
+    margin-left: auto;
+    margin-right: auto;
+    background: #2d3436;
+    bottom: 0; left: 0;
+    width: 100%;
+}
+.text-description {
+    padding: 10px;
+    margin: 0 15px;
+    font-size: 20px;
+    line-height: 30px;
+    font-family: "montserrat";
+    font-weight: 900;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+
+    border: none;
+    border-top: 1px solid #333;
+    box-shadow: 0 10px 10px -10px #8c8b8b inset;
+}
+.description-block {
+    margin-left: auto;
+    margin-right: auto;
+    background-color:#1E3A52;
+    background-image:
+        linear-gradient(30deg, #83C5E5 12%, transparent 12.5%, transparent 87%, #83C5E5 87.5%, #83C5E5),
+        linear-gradient(150deg, #83C5E5 12%, transparent 12.5%, transparent 87%, #83C5E5 87.5%, #83C5E5),
+        linear-gradient(30deg, #83C5E5 12%, transparent 12.5%, transparent 87%, #83C5E5 87.5%, #83C5E5),
+        linear-gradient(150deg, #83C5E5 12%, transparent 12.5%, transparent 87%, #83C5E5 87.5%, #83C5E5),
+        linear-gradient(60deg, #FE5568 25%, transparent 25.5%, transparent 75%, #FE5568 75%, #FE5568),
+        linear-gradient(60deg, #FE5568 25%, transparent 25.5%, transparent 75%, #FE5568 75%, #FE5568);
+    background-position: 0 0, 0 0, 25px 50px, 25px 50px, 0 0, 25px 50px;
+    background-size: 50px 100px;
+}
+.gif-block{
+    margin: 20px auto;
+}
