@@ -14,7 +14,7 @@
                 </div>
                 <ol class="pills">
                     @php
-                        $answers = json_decode($questions->answers);
+                        $answers = json_decode($single->answers);
                     @endphp
                     @foreach($answers as $answer)
                     <li>{{ $answer }}</li>
