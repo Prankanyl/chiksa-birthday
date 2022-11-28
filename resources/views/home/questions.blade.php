@@ -15,10 +15,10 @@
                 <ol class="pills">
                     @php
                         $answers = json_decode($single->answers);
+                        foreach($answers as $answer) {
+                            echo '<li>'.$answer.'</li>';
+                        }
                     @endphp
-                    @foreach($answers as $answer)
-                    <li>{{ $answer }}</li>
-                    @endforeach
                 </ol>
             </div>
         </div>
