@@ -10,6 +10,7 @@ class QuestionController extends Controller
     public function show()
     {
         $questions = Question::simplePaginate(1);
-        return view('home.questions', compact('questions'));
+        $answers = json_decode($questions->answers);
+        return view('home.questions', compact('questions', 'answers'));
     }
 }

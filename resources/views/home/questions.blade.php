@@ -4,7 +4,7 @@
         @foreach($questions as $single)
         <div class="row">
             <div class="gif-block">
-                <img src="{{ $single->image }}"  width="250" />
+                <img src="{{ $single->image }}" width="250" alt="..."/>
             </div>
         </div>
         <div class="row">
@@ -13,7 +13,7 @@
                     {!! $single->question !!}
                 </div>
                 <ol class="pills">
-                    @foreach($single->answers as $answer)
+                    @foreach($answers as $answer)
                     <li>{{ $answer }}</li>
                     @endforeach
                 </ol>
