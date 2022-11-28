@@ -3,3 +3,4 @@
 <link rel="stylesheet" href="{{asset('styles/css/main.css')}}">
 <link rel="stylesheet" href="{{asset('styles/css/btn.css')}}">
 <link rel="stylesheet" href="{{asset('styles/css/heart.css')}}">
+<link rel="stylesheet" href="{{asset('styles/css/list.css')}}">
