@@ -14,7 +14,7 @@
                 </div>
                 <ol class="pills">
                     @foreach($single->question[1] as $answer)
-                    <li>{{ json_encode($answer)[0] }}</li>
+                    <li>{{ json_decode($answer)[0] }}</li>
                     @endforeach
                 </ol>
             </div>
