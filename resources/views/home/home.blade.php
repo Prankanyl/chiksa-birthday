@@ -19,7 +19,7 @@
         <div class="row">
             <div class="btn-group">
                 <div class="col-sm-6">
-                    <a href="" class="btn btn3">{!! __('btn.start') !!}</a>
+                    <a href="{{ route('question-show') }}" class="btn btn3">{!! __('btn.start') !!}</a>
                 </div>
                 <div class="col-sm-6">
                     <a href="{{ route('easy-way') }}" class="btn btn4">{!! __('btn.easy') !!}</a>
