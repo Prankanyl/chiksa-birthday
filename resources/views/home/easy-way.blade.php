@@ -7,8 +7,10 @@
             </div>
         </div>
         <div class="row">
-            <div class="text-description">
-                {!! __('main.description_for_easy') !!}
+            <div class="col-sm-12">
+                <div class="text-description">
+                    {!! __('main.description_for_easy') !!}
+                </div>
             </div>
         </div>
         <div class="row">

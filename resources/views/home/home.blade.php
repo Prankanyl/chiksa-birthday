@@ -7,13 +7,17 @@
             </div>
         </div>
         <div class="row">
-            <div class="text-description">
-                {!! __('main.description') !!}
+            <div class="col-sm-12">
+                <div class="text-description">
+                    {!! __('main.description') !!}
+                </div>
             </div>
         </div>
         <div class="row">
-            <div class="text-description">
-                {!! __('main.way') !!}
+            <div class="col-sm-12">
+                <div class="text-description">
+                    {!! __('main.way') !!}
+                </div>
             </div>
         </div>
         <div class="row">
