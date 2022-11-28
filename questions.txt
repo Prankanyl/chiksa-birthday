@@ -1,3 +1,2 @@
-INSERT INTO questions (image, question)
-VALUES ('image','https://www.jora.live/photo/1.jpg'),
-      ('Кто любит сельнее?','{{"Алена", false},{"Валера", false}}');
+INSERT INTO questions (image, question, answers)
+VALUES ('https://www.jora.live/photo/1.jpg', 'Кто любит сельнее?', {{"Алена", false},{"Валера", false}}),

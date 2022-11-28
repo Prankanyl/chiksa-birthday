@@ -10,11 +10,11 @@
         <div class="row">
             <div class="col-sm-12">
                 <div class="text-description">
-                    {!! json_decode($single->question)[0] !!}
+                    {!! $single->question !!}
                 </div>
                 <ol class="pills">
-                    @foreach(json_decode($single->question)[1] as $answer)
-                    <li>{{ json_decode($answer)[0] }}</li>
+                    @foreach($single->answers as $answer)
+                    <li>{{ $answer }}</li>
                     @endforeach
                 </ol>
             </div>
